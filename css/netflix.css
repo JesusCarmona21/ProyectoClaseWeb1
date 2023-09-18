@@ -1,0 +1,33 @@
+body{
+    background-color: grey;
+    
+}
+
+.flexContenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    height: 100px;
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+.div1{
+   height: 20% ; 
+} 
+
+.div2{
+    height: 40%;
+}
+
+.div3{
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: aquamarine;
+}

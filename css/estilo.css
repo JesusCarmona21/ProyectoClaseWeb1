@@ -1,0 +1,100 @@
+body{
+    background-color: aqua;
+    
+}
+h1{
+    text-align: center;
+}
+
+nav,
+a{
+    margin-right: 40px;
+   
+    font-size: 14px;
+    color: black;
+    
+}
+img{
+    width: 100%;
+    height: 300px;
+    
+}
+figure{
+    margin: 0;
+}
+.flexContainer{
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.divIzquierdo{
+    width: 85%;
+    background-color:orange;
+    height: 200px;
+}
+.divDerecho{
+    width: 15%;
+    background-color: orange;
+    height: 200px;
+
+}
+.divLateralRight {
+    width: 20%;
+    background-color:bisque;
+    height: 400px;
+}
+.imgfoto{
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    
+}
+
+#flexContenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gridContenedor{
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    /*column-gap: 20px;
+    row-gap: 20px;*/
+    gap: 20px;
+    grid-template-rows: 100px 400px;
+}
+
+div#flexContenedor > div{
+    width: 400px;
+    border: 1px solid red;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div#gridContenedor > div{
+    border: 1px solid blue;
+}
+
+#gridArea{
+    display: grid;
+    grid-template-areas: 'encabezado encabezado encabezado aside' 
+    'encabezado intermedio intermedio aside'
+    'encabezado encabezado encabezado aside';
+}
+
+#divUno{
+    grid-area: encabezado;
+    background-color: blue;
+}
+
+#divDos{
+    grid-area: intermedio;
+    background-color: yellowgreen;
+}
+
+#divTres{
+    grid-area: aside;
+    background-color: brown;
+}
+
