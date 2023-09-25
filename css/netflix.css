@@ -1,31 +1,31 @@
-body{
+body {
     background-color: grey;
-    
+
 }
 
-.flexContenedor{
+.flexContenedor {
     display: flex;
     justify-content: space-between;
 }
 
-nav{
+nav {
     height: 100px;
     background-color: black;
 }
 
-a{
+a {
     color: white;
 }
 
-.div1{
-   height: 20% ; 
-} 
+.div1 {
+    height: 20%;
+}
 
-.div2{
+.div2 {
     height: 40%;
 }
 
-.div3{
+.div3 {
     height: 30%;
     display: flex;
     justify-content: flex-end;
