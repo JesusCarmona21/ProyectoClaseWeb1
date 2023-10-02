@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo JS</title>
+
+    <script src="../js/utilidades.js"></script>
+
+</head>
+
+<body>
+    <h1 id="titulo"> Ejemplo</h1>
+    <p id="texto">El frond end es mejor que el back end</p>
+    <script>
+
+        var h1 = document.getElementById("titulo");
+        h1.innerHTML = "Ejemplo JS";
+
+        var p = crearNodoTexto("p","El mundo cambia con un solo click");
+        var h2 = crearNodoTexto("h2","Back End 1");
+
+        adicionarNodoBody (p);
+        adicionarNodoBody (h2);
+
+        
+
+        var pDos = document.getElementById("texto");
+        pDos.remove();
+
+    </script>
+
+</body>
+
+</html>
